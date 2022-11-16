@@ -1,0 +1,15 @@
+.signup__container{
+  min-height: 50vh;
+}
+.avatar__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.auth__form input[type="file"] {
+  color: var(--primary-color);
+  background-color: white;
+  cursor: pointer;
+  width: 60%;
+}

@@ -1,0 +1,20 @@
+.page__head {
+  background: linear-gradient(
+      180deg,
+      rgba(8, 2, 2, 0.135),
+      rgba(16, 15, 15, 0.108)
+    ),
+    url(../../assets/images/PageHead.jpg) no-repeat center center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page__head h1 {
+  color: var(--hero-bg);
+  font-weight: 700;
+  font-size: 5rem;
+  text-align: center;
+  font-family: "Lobster", cursive;
+}

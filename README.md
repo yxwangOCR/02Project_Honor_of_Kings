@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# Honor of Kings
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+E-commerce website "Honor of Kings"
 
-## Available Scripts
+[![React](https://img.shields.io/badge/React-18.2.0-9cf)](https://fr.reactjs.org/)
+[![React router](https://img.shields.io/badge/React%20Router-v6.2.2-orange)](https://v5.reactrouter.com/web/guides/quick-start)
+[![React Redux](https://img.shields.io/badge/React%20Redux-v8.0.2-critical)](https://react-redux.js.org/)
+[![Redux Toolkit](https://img.shields.io/badge/Redux%20Toolkit-v1.8.5-blueviolet)](https://redux-toolkit.js.org/)
+[![Framer Motion](https://img.shields.io/badge/Framer%20Motion-7.6.1-blue)](https://www.framer.com/docs/)
+[![Remix Icon](https://img.shields.io/badge/Remix%20Icon-2.5.0-brightgreen)](https://github.com/Remix-Design/remixicon#usage)
+[![Reactstrap](https://img.shields.io/badge/Reactstrap-9.1.4-yellow)](https://reactstrap.github.io/?path=/story/home-installation--page)
+[![React-Toastify](https://img.shields.io/badge/React--Toastify-9.1.1-ff69b4)](https://fkhadra.github.io/react-toastify/introduction/)
+[![Firebase](https://img.shields.io/badge/Firebase-9.13.0-success)](https://prettier.io/docs/en/install.html)
+[![Prettier](https://img.shields.io/badge/Prettier-2.7.1-green)](https://firebase.google.com/)
 
-In the project directory, you can run:
+## Documentation
 
-### `npm start`
+- [React](https://fr.reactjs.org/)
+- [Redux](https://redux.js.org/)
+- [React Router](https://v5.reactrouter.com/web/guides/quick-start)
+- [Framer Motion](https://www.framer.com/docs/)
+- [Remix Icon](https://github.com/Remix-Design/remixicon#usage)
+- [Reactstrap](https://reactstrap.github.io/?path=/story/home-installation--page)
+- [React-Toastify](https://fkhadra.github.io/react-toastify/introduction)
+- [Firebase](https://firebase.google.com/)
+- [Prettier](https://prettier.io/docs/en/install.html)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Demo
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+![Demo1](src/assets/demo1.gif)
 
-### `npm test`
+![Demo2](src/assets/demo2.gif)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Demo3](src/assets/demo3.gif)
 
-### `npm run build`
+![Demo4](src/assets/demo4.gif)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+![Demo5](src/assets/demo5.gif)

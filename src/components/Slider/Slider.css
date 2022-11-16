@@ -1,0 +1,23 @@
+.carousel {
+  cursor: grab;
+  overflow: hidden;
+  background-color: var(--hero-bg);
+  border-radius: 8px;
+}
+
+.inner__carousel {
+  display: flex;
+}
+
+.carousel__image {
+  height: 20rem;
+  min-width: 25rem;
+  padding: 15px;
+}
+
+.carousel__image img {
+  height: 100%;
+  width: 100%;
+  border-radius: 8px;
+  pointer-events: none;
+}

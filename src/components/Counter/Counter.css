@@ -1,0 +1,29 @@
+.timer__count {
+  background-color: var(--hero-bg);
+}
+
+.timer__count img {
+  width: 25rem;
+  height: 18rem;
+  object-fit: contain;
+}
+.timer__count h4 {
+  margin: 1rem 0;
+}
+@media only screen and (max-width: 992px) {
+  .timer__count img {
+    display: none;
+  }
+  .timer__count .container {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .timer__count h4 {
+    font-size: 1.5rem;
+  }
+  .button {
+    margin: 1rem 0;
+  }
+}

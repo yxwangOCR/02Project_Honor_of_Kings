@@ -1,0 +1,45 @@
+.cart{
+  min-height: 60vh;
+}
+.cart h4 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.table tr th {
+  text-align: center;
+}
+.table tr td img {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+}
+
+.table td {
+  text-align: center;
+}
+
+.table td i {
+  color: var(--primary-color);
+  cursor: pointer;
+}
+
+.table th {
+  color: var(--primary-color);
+}
+
+.amount__items {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.amount__items span {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--primary-color);
+}
+
+.amount__buttons button {
+  width: 100%;
+}

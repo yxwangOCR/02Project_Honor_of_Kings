@@ -1,0 +1,30 @@
+.clock__wrapper {
+  display: flex;
+  gap: 2rem;
+  margin: 2rem 0;
+}
+
+.clock__wrapper span {
+  font-size: 2rem;
+}
+
+@media only screen and (max-width: 992px) {
+  .clock__wrapper {
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 560px) {
+  .clock__wrapper {
+    gap: 1rem;
+  }
+  .clock__wrapper h1 {
+    font-size: 1.5rem;
+  }
+  .clock__wrapper h5 {
+    font-size: 1rem;
+  }
+  .clock__wrapper span {
+    font-size: 1.5rem;
+  }
+}

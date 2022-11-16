@@ -1,0 +1,47 @@
+.login__container {
+  min-height: 50vh;
+}
+.form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.auth__form {
+  padding: 40px;
+  border-radius: 5px;
+  background-color: var(--primary-color);
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.auth__form button {
+  background-color: white;
+  color: var(--primary-color);
+  width: 50%;
+  margin-top: 3rem;
+  align-self: center;
+  font-weight: 500;
+}
+
+.auth__form p {
+  color: white;
+  margin-top: 3rem;
+  text-align: center;
+}
+.auth__form p a {
+  border-bottom: 1px solid white;
+}
+.auth__form p a:hover {
+  color: var(--hero-bg);
+}
+
+.auth__form input {
+  width: 100%;
+  padding: 8px 20px;
+  border: 1px solid var(--small-text-color);
+  border-radius: 5px;
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 10px;
+}

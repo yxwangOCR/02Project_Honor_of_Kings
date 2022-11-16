@@ -1,0 +1,41 @@
+.reviews {
+  padding-left: 0;
+}
+
+.review__form {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form__group span {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  color: #ff6060;
+}
+
+.review__stars {
+  font-size: 1.3rem;
+  cursor: pointer;
+  margin-top: 0.5rem;
+}
+
+.input__name {
+  width: 15rem;
+  padding: 8px 12px;
+  border-radius: 5px;
+  border: 1px solid var(--primary-color);
+  margin-bottom: 1rem;
+}
+
+.input__review {
+  width: 30rem;
+  padding: 8px 12px;
+  border-radius: 5px;
+  border: 1px solid var(--primary-color);
+  margin: 1rem 0;
+}
