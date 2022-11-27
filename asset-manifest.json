@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/02Project_Honor_of_Kings/static/css/main.493b612c.css",
-    "main.js": "/02Project_Honor_of_Kings/static/js/main.cf845e5e.js",
+    "main.js": "/02Project_Honor_of_Kings/static/js/main.fae0bec3.js",
     "static/media/bg.mp4": "/02Project_Honor_of_Kings/static/media/bg.1a5425a50e1f7ec49562.mp4",
     "static/media/PageHead.jpg": "/02Project_Honor_of_Kings/static/media/PageHead.4ea81849cafe3ffa688a.jpg",
     "static/media/remixicon.svg?t=1590207869815": "/02Project_Honor_of_Kings/static/media/remixicon.9cedd2150922ead84869.svg",
@@ -74,10 +74,10 @@
     "static/media/LiuShan.jpg": "/02Project_Honor_of_Kings/static/media/LiuShan.f57b2c7796ceeb7cc674.jpg",
     "index.html": "/02Project_Honor_of_Kings/index.html",
     "main.493b612c.css.map": "/02Project_Honor_of_Kings/static/css/main.493b612c.css.map",
-    "main.cf845e5e.js.map": "/02Project_Honor_of_Kings/static/js/main.cf845e5e.js.map"
+    "main.fae0bec3.js.map": "/02Project_Honor_of_Kings/static/js/main.fae0bec3.js.map"
   },
   "entrypoints": [
     "static/css/main.493b612c.css",
-    "static/js/main.cf845e5e.js"
+    "static/js/main.fae0bec3.js"
   ]
 }
