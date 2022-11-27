@@ -4,6 +4,7 @@ import Wishlist from "../pages/Wishlist/Wishlist";
 import Shop from "../pages/Shop/Shop";
 import Checkout from "../pages/Checkout/Checkout";
 import Login from "../pages/Login/Login";
+import Page404 from "../pages/404/404";
 import ProductDetails from "../pages/ProductDetails/ProductDetails";
 import Signup from "../pages/Signup/Signup";
 import ProtectedRoute from "./ProtectedRoute";
@@ -13,22 +14,23 @@ import { Routes, Route, Navigate } from "react-router-dom";
 const Routers = () => {
   return (
     <Routes>
-      <Route path="/" element={<Navigate to="accueil" />} />
-      <Route path="accueil" element={<Home />} />
-      <Route path="panier" element={<Cart />} />
-      <Route path="favori" element={<Wishlist />} />
-      <Route path="boutique" element={<Shop />} />
+      <Route path='/' element={<Navigate to='accueil' />} />
+      <Route path='*' element={<Page404 />} />
+      <Route path='accueil' element={<Home />} />
+      <Route path='panier' element={<Cart />} />
+      <Route path='favori' element={<Wishlist />} />
+      <Route path='boutique' element={<Shop />} />
       <Route
-        path="checkout"
+        path='checkout'
         element={
           <ProtectedRoute>
             <Checkout />
           </ProtectedRoute>
         }
       />
-      <Route path="login" element={<Login />} />
-      <Route path="boutique/:id" element={<ProductDetails />} />
-      <Route path="signup" element={<Signup />} />
+      <Route path='login' element={<Login />} />
+      <Route path='boutique/:id' element={<ProductDetails />} />
+      <Route path='signup' element={<Signup />} />
     </Routes>
   );
 };
