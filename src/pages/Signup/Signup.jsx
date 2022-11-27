@@ -5,6 +5,7 @@ import { Container, Row, Col } from "reactstrap";
 import { useState } from "react";
 import SignupForm from "../../components/SignupForm/SignupForm";
 
+
 function Signup() {
   const [loading] = useState(false);
   return (

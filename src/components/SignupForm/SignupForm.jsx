@@ -20,7 +20,7 @@ const SignupForm = () => {
 
   const handleSignup = async (e) => {
     e.preventDefault();
-    setLoading(true);
+    //setLoading(true);
     try {
       const userCredential = await createUserWithEmailAndPassword(
         auth,
@@ -53,13 +53,13 @@ const SignupForm = () => {
           });
         }
       );
-      setLoading(false);
+      //setLoading(false);
       toast.success("S'inscrire avec succès");
       navigate("/login");
     } catch (error) {
-      setLoading(false);
+      //setLoading(false);
       toast.error("Error!");
-      setLoading(false);
+      //setLoading(false);
     }
   };
 
