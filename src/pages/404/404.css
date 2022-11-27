@@ -1,0 +1,35 @@
+.Page_404 {
+  min-height: 85vh;
+  padding: 5em;
+}
+.Page_404 h1 {
+  text-align: center;
+}
+.Page_404 h3 {
+  margin: 1em 0;
+  text-decoration: underline;
+}
+.Page_404 p {
+  color: var(--primary-color);
+  line-height: 3em;
+}
+.Page_404 p a {
+  color: var(--primary-color);
+  font-weight: 800;
+  background: var(--small-text-color);
+  padding: 0.5em;
+  border-radius: 8px;
+  box-shadow: 0 0 3px var(--small-text-color);
+}
+
+.Page_404 p a:hover {
+  color: var(--small-text-color);
+  background: var(--primary-color);
+  box-shadow: 0 0 10px var(--primary-color);
+}
+
+.video {
+  display: flex;
+  justify-content: center;
+  margin: 2em auto;
+}
